@@ -10,10 +10,11 @@ const Nav = () => {
           <img src={profil1} alt='profilimg' className='profile-image' />
        </div>
 
-       <div>Icon of Social media</div>
-       <div>Text</div> 
+      
+       <div className='textstyle'><p>Hey! i'm sefsaf abdelhak software developer</p> </div> 
        <div>Navbar to change content </div>
        <div>created by sefsaf abdelhak </div>
+       <div>Icon of Social media</div>
     </div>
   )
 }

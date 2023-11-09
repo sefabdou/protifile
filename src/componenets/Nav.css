@@ -22,3 +22,15 @@
     object-fit: cover; /* Maintain the aspect ratio and cover the entire container */
     display: block; /* Remove any default inline styles that might affect layout */
   }
+.textstyle p {
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid transparent;
+    transition: all .55s ease;
+
+
+}
+.textstyle p:hover {
+     border-bottom: 4px solid white;
+    
+}
