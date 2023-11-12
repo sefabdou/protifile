@@ -1,5 +1,6 @@
 import Nav from "./componenets/Nav";
 import AboutAs from "./NavSection/AboutAs";
+import Services from "./NavSection/Services";
 import './App.css'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
      
       <div> <Nav /> </div>
-      <div> <AboutAs /> </div>
+      {/* <div> <AboutAs /> </div>  */}
+      <div> <Services/> </div> 
     </div>
   );
 }
